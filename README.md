@@ -1,66 +1,198 @@
-## Foundry
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+<a name="readme-top"></a>
 
-Foundry consists of:
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
 
-## Documentation
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-https://book.getfoundry.sh/
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-## Usage
+<h3 align="center">project_title</h3>
 
-### Build
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract">View Demo</a>
+    ·
+    <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues">Request Feature</a>
+  </p>
+</div>
 
-```shell
-$ forge build
-```
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### Test
+<!-- ABOUT THE PROJECT -->
 
-```shell
-$ forge test
-```
+## About The Project
 
-### Format
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-```shell
-$ forge fmt
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Gas Snapshots
+### Built With
 
-```shell
-$ forge snapshot
-```
+- Solidity
+- Foundry
 
-### Anvil
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-```shell
-$ anvil
-```
+<!-- GETTING STARTED -->
 
-### Deploy
+## Getting Started
 
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
+To get a local copy up and running follow these simple example steps.
 
-### Cast
+### Prerequisites
 
-```shell
-$ cast <subcommand>
-```
+You will need foundry to install the packages and run tests. You can find out more here: https://book.getfoundry.sh/getting-started/installation. Make to run the makefile commands.
 
-### Help
+- foundry
 
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+  ```sh
+  curl -L https://foundry.paradigm.xyz | bash
+  ```
+
+- foundryup
+
+  ```sh
+  foundryup
+  ```
+
+- make
+  ```sh
+  sudo apt-get install make
+  ```
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/achoudhury4927/foundry-adil-erc721.git
+   ```
+2. Run Anvil
+   ```sh
+   make anvil
+   ```
+3. Deploy contracts on local Anvil chain
+   ```sh
+   make deploy
+   ```
+4. Run tests
+   ```sh
+   make test
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+- [ ] Feature 1
+- [ ] Feature 2
+- [ ] Feature 3
+  - [ ] Nested Feature
+
+See the [open issues](https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Adil Choudhury - [@0xAdilc](https://twitter.com/0xAdilc) - contact@adilc.me
+
+Project Link: [https://github.com/achoudhury4927/foundry-adil-upgradeable-contract](https://github.com/achoudhury4927/foundry-adil-upgradeable-contract)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/achoudhury4927/foundry-adil-upgradeable-contract.svg?style=for-the-badge
+[contributors-url]: https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/achoudhury4927/foundry-adil-upgradeable-contract.svg?style=for-the-badge
+[forks-url]: https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/network/members
+[stars-shield]: https://img.shields.io/github/stars/achoudhury4927/foundry-adil-upgradeable-contract.svg?style=for-the-badge
+[stars-url]: https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/stargazers
+[issues-shield]: https://img.shields.io/github/issues/achoudhury4927/foundry-adil-upgradeable-contract.svg?style=for-the-badge
+[issues-url]: https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues
+[license-shield]: https://img.shields.io/github/license/achoudhury4927/foundry-adil-upgradeable-contract.svg?style=for-the-badge
+[license-url]: https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/blob/master/LICENSE.txt
