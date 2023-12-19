@@ -20,7 +20,11 @@ contract CardV2 is Initializable, UUPSUpgradeable, OwnableUpgradeable {
     }
 
     function setNumber(uint256 _number) external {
-        number = _number;
+        number = _number * 2;
+    }
+
+    function setName(string memory _name) external {
+        name = _name;
     }
 
     function getNumber() external view returns (uint256) {
