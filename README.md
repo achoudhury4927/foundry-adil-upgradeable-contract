@@ -40,8 +40,6 @@
     <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract">View Demo</a>
-    ·
     <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues">Report Bug</a>
     ·
     <a href="https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues">Request Feature</a>
@@ -139,10 +137,14 @@ You will need foundry to install the packages and run tests. You can find out mo
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [x] Contracts
+  - [x] Tests
+  - [x] Deployment Scripts
+- [x] Deployed to Base Goerli
+  - [x] Proxy Deployment: https://goerli.basescan.org/address/0xec56faac5be0b467f9aa872b862dc6155cdea8fd
+  - [x] CardV1 Deployment: https://goerli.basescan.org/address/0xee3ec67579ec9a47389dee7fb160aa3400b0a606
+  - [x] CardV2 Deployment: https://goerli.basescan.org/address/0x1d93f3e28da20bbf8a29ff78cedbc6adbf104068
+- [x] Upgrade onchain transaction: https://goerli.basescan.org/tx/0xc8153149aa09ee02bef2e1fbf17aee6effe9114d512c76cbcf5e5602394f34ca
 
 See the [open issues](https://github.com/achoudhury4927/foundry-adil-upgradeable-contract/issues) for a full list of proposed features (and known issues).
 
